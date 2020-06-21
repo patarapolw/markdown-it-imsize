@@ -1,9 +1,15 @@
 {
   "name": "@patarapolw/markdown-it-imsize",
-  "version": "2.0.1",
+  "version": "2.0.1-dev2",
   "description": "Markdown-it plugin to specify image size",
   "main": "lib/index.js",
   "types": "index.d.ts",
+  "unpkg": "dist/markdown-it-imsize.min.js",
+  "files": [
+    "lib",
+    "dist",
+    "index.d.ts"
+  ],
   "scripts": {
     "build": "webpack ./ && uglifyjs dist/markdown-it-imsize.js > dist/markdown-it-imsize.min.js",
     "test": "echo \"no test\""
